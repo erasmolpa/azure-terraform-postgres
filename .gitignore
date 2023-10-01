@@ -1,0 +1,11 @@
+# Ignora archivos de estado de Terraform y su directorio
+**/.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ignora archivos temporales creados por Terraform
+*.tfplan
+*.tfvars
+
+# Ignora archivos de registro y registros de depuración
+*.log
